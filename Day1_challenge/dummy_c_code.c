@@ -4,10 +4,10 @@
 
 int main(void)
 {
-	int i;
+	//int i;
 	char arr[] = "Are you ready for the challenge\?\n";
-	i = strlen(arr);
-	char *ptr = malloc(sizeof(char) * i);
+	int i = strlen(arr);
+	char *ptr = malloc(sizeof(char ) * i);
 	strcpy(ptr, arr);
 	printf("%s\n", ptr);
 	printf("The size of ptr is %d\n", i);
